@@ -99,7 +99,10 @@ Classifier (GNU General Public License, version 2 or any later version). To cite
 
 ## References
 
-- Camacho, C., et al. (2009). BLAST+: architecture and applications. *BMC Bioinformatics*, 10, 421. https://doi.org/10.1186/1471-2105-10-421
+- Bucklin, A., Peijnenburg, K. T. C. A., Kosobokova, K. N., O'Brien, T. D., Blanco-Bercial, L., Cornils, A., Falkenhaug, T., Hopcroft, R. R., Hosia, A., Laakmann, S., Li, C., Martell, L., Questel, J. M., Wall-Palmer, D., Wang, M., Wiebe, P. H., & Weydmann-Zwolicka, A. (2021). Toward a global reference database of COI barcodes for marine zooplankton. *Marine Biology*, 168(6), 78. https://doi.org/10.1007/s00227-021-03887-y
+- Camacho, C., Coulouris, G., Avagyan, V., Ma, N., Papadopoulos, J., Bealer, K., & Madden, T. L. (2009). BLAST+: architecture and applications. *BMC Bioinformatics*, 10, 421. https://doi.org/10.1186/1471-2105-10-421
+- Edgar, R. C. (2016). SINTAX: a simple non-Bayesian taxonomy classifier for 16S and ITS sequences. *bioRxiv*, 074161. https://doi.org/10.1101/074161
+- Leray, M., Knowlton, N., & Machida, R. J. (2022). MIDORI2: A collection of quality controlled, preformatted, and regularly updated reference databases for taxonomic assignment of eukaryotic mitochondrial sequences. *Environmental DNA*, 4(4), 894–907. https://doi.org/10.1002/edn3.303
+- Prosser, S. W. J., Floyd, R. M., Thompson, K. A., & Hebert, P. D. N. (2025). BOLDistilled: Comprehensive but compact DNA barcode reference libraries. *Molecular Ecology Resources*. https://doi.org/10.1111/1755-0998.70043
 - Rognes, T., Flouri, T., Nichols, B., Quince, C., & Mahé, F. (2016). VSEARCH: a versatile open source tool for metagenomics. *PeerJ*, 4, e2584. https://doi.org/10.7717/peerj.2584
 - Wang, Q., Garrity, G. M., Tiedje, J. M., & Cole, J. R. (2007). Naive Bayesian classifier for rapid assignment of rRNA sequences into the new bacterial taxonomy. *Applied and Environmental Microbiology*, 73(16), 5261–5267. https://doi.org/10.1128/AEM.00062-07
-- Reference databases and SINTAX: Leray et al. (2022), MIDORI2; Prosser et al. (2025), BOLDistilled; Bucklin et al. (2021), MetaZooGene; Edgar (2016), SINTAX. Full references are in the article.
