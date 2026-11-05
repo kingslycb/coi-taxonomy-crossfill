@@ -13,11 +13,23 @@ license: GPL-3.0-or-later
 authors:
   - family-names: Beng
     given-names: Kingsly C.
-    affiliation: Thünen Institute
+    email: kingsly-chuo.beng@thuenen.de
+    orcid: "https://orcid.org/0000-0002-0745-7930"
+    affiliation: >-
+      Thünen Institute of Sea Fisheries, Bremerhaven, Germany;
+      Helmholtz Institute for Functional Marine Biodiversity at the University of Oldenburg (HIFMB), Oldenburg, Germany;
+      Alfred Wegener Institute, Helmholtz Centre for Polar and Marine Research (AWI), Bremerhaven, Germany
   - family-names: Laakmann
-    given-names: S.
+    given-names: Silke
+    orcid: "https://orcid.org/0000-0003-3273-7907"
+    affiliation: >-
+      Helmholtz Institute for Functional Marine Biodiversity at the University of Oldenburg (HIFMB), Oldenburg, Germany;
+      Alfred Wegener Institute, Helmholtz Centre for Polar and Marine Research (AWI), Bremerhaven, Germany
   - family-names: Sell
-    given-names: A. F.
+    given-names: Anne F.
+    orcid: "https://orcid.org/0000-0002-6556-7898"
+    affiliation: Thünen Institute of Sea Fisheries, Bremerhaven, Germany
+repository-code: "https://github.com/kingslycb/coi-taxonomy-crossfill"
 keywords:
   - COI
   - metabarcoding
