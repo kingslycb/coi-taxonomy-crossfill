@@ -1,7 +1,8 @@
 # COI metabarcoding: taxonomic assignment of ASVs
 
 Taxonomic assignment of amplicon sequence variants (ASVs) against three cross-filled COI reference databases with
-three classifiers. ASVs were generated beforehand with Cutadapt and DADA2 (see the article).
+three classifiers. The input is one FASTA file of ASVs per sequencing
+library, generated beforehand (for example with Cutadapt and DADA2).
 
 ## Workflow
 
@@ -20,7 +21,9 @@ three classifiers. ASVs were generated beforehand with Cutadapt and DADA2 (see t
      identity threshold is met: 98% species, 95% genus, 90% family, 85% order, 80% class, 75% phylum.
    - SINTAX (VSEARCH) against BOLDistilled: bootstrap cut-off 0.75.
    - RDP naive Bayesian classifier trained on MZG, word length 7 (`java/WordSizeMain.java`; `java/TreeFactory.java`
-     is the RDP training class with its word arrays sized for word lengths other than 8). Ranks with
+     is the RDP training class with its word arrays sized for word lengths other than 8). Word length 7 was used
+     because training with the default of 8 on this database (species as the lowest rank) ran out of memory
+     with 14 GB of Java heap. Ranks with
      confidence below 0.75 are left unassigned. Reference sequences without a species name are trained as
      "Genus sp.".
 3. **Result tables** (`python/classification_tables.py`). One table per library and method, with the same
