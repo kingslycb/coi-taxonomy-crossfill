@@ -9,6 +9,8 @@ abstract: >-
   given seven-rank lineages (kingdom to species).
 type: software
 version: 1.0.0
+doi: 10.5281/zenodo.23983627
+date-released: 2026-11-05
 license: GPL-3.0-or-later
 authors:
   - family-names: Beng
@@ -29,6 +31,13 @@ authors:
     given-names: Anne F.
     orcid: "https://orcid.org/0000-0002-6556-7898"
     affiliation: Thünen Institute of Sea Fisheries, Bremerhaven, Germany
+identifiers:
+  - type: doi
+    value: 10.5281/zenodo.23983627
+    description: Concept DOI (all versions)
+  - type: doi
+    value: 10.5281/zenodo.23983628
+    description: Version v1.0.0
 repository-code: "https://github.com/kingslycb/coi-taxonomy-crossfill"
 keywords:
   - COI

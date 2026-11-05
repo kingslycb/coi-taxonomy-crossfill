@@ -1,5 +1,7 @@
 # COI metabarcoding: taxonomic assignment of ASVs
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23983627.svg)](https://doi.org/10.5281/zenodo.23983627)
+
 Taxonomic assignment of amplicon sequence variants (ASVs) against three cross-filled COI reference databases with
 three classifiers. The input is one FASTA file of ASVs per sequencing
 library, generated beforehand (for example with Cutadapt and DADA2).
@@ -98,7 +100,13 @@ the three result tables, and they run SINTAX when VSEARCH is installed.
 ## Licence and citation
 
 GNU General Public License, version 3 or later (`LICENSE`). `java/TreeFactory.java` is derived from the RDP
-Classifier (GNU General Public License, version 2 or any later version). To cite this software, see `CITATION.cff`.
+Classifier (GNU General Public License, version 2 or any later version). To cite this software:
+
+Beng, K. C., Laakmann, S., & Sell, A. F. (2026). *COI taxonomic assignment with cross-filled reference
+databases* (Version v1.0.0) [Computer software]. Zenodo. https://doi.org/10.5281/zenodo.23983628
+
+The DOI above is for version v1.0.0. The DOI https://doi.org/10.5281/zenodo.23983627 always resolves to the
+latest version. See also `CITATION.cff`.
 
 ## References
 
