@@ -1,0 +1,32 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+title: "COI taxonomic assignment with cross-filled reference databases"
+abstract: >-
+  Taxonomic assignment of COI amplicon sequence variants (ASVs) against three cross-filled reference
+  databases (MIDORI2, BOLDistilled, MetaZooGene) with three classifiers (BLASTn, SINTAX in VSEARCH,
+  RDP naive Bayesian classifier). Animal species (excluding arachnids and insects) present in one
+  database but absent from another are copied into the database that lacks them, and all records are
+  given seven-rank lineages (kingdom to species).
+type: software
+version: 1.0.0
+license: GPL-3.0-or-later
+authors:
+  - family-names: Beng
+    given-names: Kingsly C.
+    affiliation: Thünen Institute
+  - family-names: Laakmann
+    given-names: S.
+  - family-names: Sell
+    given-names: A. F.
+keywords:
+  - COI
+  - metabarcoding
+  - eDNA
+  - taxonomic assignment
+  - reference database
+  - MIDORI2
+  - BOLDistilled
+  - MetaZooGene
+  - BLAST
+  - SINTAX
+  - RDP classifier

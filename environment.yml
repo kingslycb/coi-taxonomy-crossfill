@@ -1,0 +1,11 @@
+# Conda environment with the software versions used (Bioconda / conda-forge).
+name: coi-taxonomy
+channels: [conda-forge, bioconda]
+dependencies:
+  - python=3.12
+  - blast=2.17.0
+  - vsearch=2.30.1
+  - openjdk=21
+  - curl
+  - unzip
+# RDP Classifier 2.14: download from SourceForge (rdp-classifier) and set RDP_CLASSIFIER in config.sh.
